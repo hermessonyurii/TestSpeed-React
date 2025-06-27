@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/503822a9-1741-4a51-9155-fc646342d028)
 <!-- ALERTA IMPORTANTE / IMPORTANT NOTICE -->
 <div align="center">
   
