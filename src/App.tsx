@@ -142,7 +142,7 @@ function App() {
     setError(null);
     setResult(null);
     try {
-      const { data } = await axios.get('http://localhost:5000/api/speedtest');
+      const { data } = await axios.get('https://testspeed-react.onrender.com/api/speedtest');
       setResult(data);
     } catch (err: any) {
       setError('Erro ao realizar o teste. Tente novamente.');
