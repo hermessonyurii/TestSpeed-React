@@ -1,20 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- Declaração do tipo de documento, define este arquivo como HTML5 -->
+<html lang="en"> <!-- Define o idioma principal do documento -->
+
   <head>
+    <!-- Conjunto de caracteres usado: UTF-8 suporta acentuação e símbolos -->
     <meta charset="utf-8" />
+
+    <!-- Ícone que aparece na aba do navegador -->
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <!-- Viewport responsiva para dispositivos móveis -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Cor da barra do navegador em dispositivos móveis -->
     <meta name="theme-color" content="#000000" />
+
+    <!-- Descrição da aplicação (usada por mecanismos de busca e ao instalar como PWA) -->
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
+
+    <!-- Ícone exibido ao adicionar o site na tela inicial (iOS) -->
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <!-- Manifesto da aplicação: define comportamento ao ser instalada como app -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Título da aba do navegador -->
     <title>Test Speed</title>
   </head>
+
   <body>
+    <!-- Div onde o React irá renderizar o app (controlada pelo ReactDOM.render) -->
     <div id="root"></div>
+
+    <!-- Elementos visuais decorativos (ex: bolhas animadas no background) -->
     <div class="bubble-bg">
       <div class="bubble"></div>
       <div class="bubble"></div>
