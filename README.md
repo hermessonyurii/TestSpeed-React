@@ -1,46 +1,144 @@
-# Getting Started with Create React App
+<!-- ALERTA IMPORTANTE / IMPORTANT NOTICE -->
+<div align="center">
+  
+  <img src="https://img.shields.io/badge/%F0%9F%9A%A8_AVISO_IMPORTANTE-%F0%9F%92%A5-red?style=for-the-badge&logo=exclamationmark&logoColor=white" alt="Alerta" />
+  <img src="https://img.shields.io/badge/%E2%9A%A0%EF%B8%8F_ATEN%C3%87%C3%83O-CR%C3%8DCO-yellow?style=for-the-badge" alt="Atenção" />
+  <img src="https://img.shields.io/badge/%E2%AD%90_PLEASE_STAR-%F0%9F%8C%9F-blue?style=for-the-badge" alt="Star" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</div>
 
-## Available Scripts
+<div align="center" style="font-size:1.1em; margin: 20px 0;">
 
-In the project directory, you can run:
+<b>🇧🇷 PORTUGUÊS</b>  
+🚨 <b>Pessoal, se for usar este projeto:</b>  
+⭐ <b>Deixe sua estrela</b> • 🧑🏽‍💻 <b>Me siga</b> • 💬 <b>Dê feedback</b>  
 
-### `npm start`
+💡 <b>Um gesto simples faz toda diferença!</b>  
+⏳ Dediquei <b>horas de estudo e desenvolvimento</b> para criar esta solução  
+🔄 <b>"Uma mão lava a outra"</b> - Seu reconhecimento motiva melhorias constantes  
+🙏 <b>Muito obrigado pelo seu apoio!</b>  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<b>🇺🇸 ENGLISH</b>  
+🚨 <b>Folks, if you use this project:</b>  
+⭐ <b>Star it</b> • 🧑🏽‍💻 <b>Follow me</b> • 💬 <b>Provide feedback</b>  
 
-### `npm test`
+💡 <b>A simple gesture makes all the difference!</b>  
+⏳ I spent <b>countless hours studying and coding</b> to build this solution  
+🔄 <b>"One good turn deserves another"</b> - Your recognition fuels continuous improvement  
+🙏 <b>Thank you so much for your support!</b>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</div>
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 🗺️ TestSpeed-React [![GitHub Stars](https://img.shields.io/github/stars/hermessonyurii/TestSpeed-React?style=social)](https://github.com/hermessonyurii/TestSpeed-React/stargazers)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0.2-3178C6?logo=typescript)
+![Node.js](https://img.shields.io/badge/Node.js-18.16.0-339933?logo=node.js)
+![Express](https://img.shields.io/badge/Express-4.18.2-000000?logo=express)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Repositório oficial:** [https://github.com/hermessonyurii/TestSpeed-React](https://github.com/hermessonyurii/TestSpeed-React)
 
-### `npm run eject`
+## 👁️ Visão Geral | Overview
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**BR**  
+**Um teste de velocidade de internet completo com visual moderno e animações fluidas. Desenvolvido com React (Frontend) e Node.js + Express (Backend).**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**ENG**  
+**A complete internet speed test with modern UI and smooth animations. Built with React (Frontend) and Node.js + Express (Backend).**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## ✨ Funcionalidades | Features
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- 📊 **Teste completo de velocidade** (download/upload/ping/jitter)
+- ⚡ **Backend eficiente** com Node.js + Express
+- 🎨 **Frontend moderno** com React + TypeScript
+- 🌈 **Animações fluidas** e design responsivo
+- 🔄 **Dicas úteis** durante o teste
+- 📱 **Totalmente responsivo** para todos dispositivos
+- 🔗 **Rodapé personalizável** com links sociais
 
-## Learn More
+## 🛠️ Tecnologias | Technologies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Tech Stack](https://skillicons.dev/icons?i=react,typescript,nodejs,express,styledcomponents,git,github)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ⚙️ Instalação | Installation
+
+```bash
+# Clone o repositório | Clone repository
+git clone https://github.com/hermessonyurii/TestSpeed-React.git
+cd TestSpeed-React
+
+# Instale as dependências | Install dependencies
+npm install
+cd backend && npm install && cd ..
+```
+
+### 🖥️ Execução | Running
+
+**Backend (em porta separada | on separate port):**
+
+```bash
+cd backend
+npm start
+# http://localhost:5000
+```
+
+**Frontend:**
+
+```bash
+npm start
+# http://localhost:3000
+```
+
+## 📂 Estrutura do Projeto | Project Structure
+
+```
+TestSpeed-React/
+├── backend/          # Server code
+├── public/           # Static files
+├── src/              # React components
+│   ├── assets/       # Images/icons
+│   ├── components/   # Reusable components
+│   ├── App.tsx       # Main component
+│   └── ...           # Other files
+├── package.json      # Frontend dependencies
+└── README.md         # This file
+```
+
+<div align="center">
+  <h2>🤝 Como Contribuir | How to Contribute</h2>
+</div>
+
+<div align="center">
+<b>🍴 Faça um fork do projeto | Fork the project<br/>
+🌿 Crie uma branch (git checkout -b feature/AmazingFeature)<br/>
+💾 Commit suas mudanças (git commit -m 'Add some AmazingFeature')<br/>
+📌 Envie o Push (git push origin feature/AmazingFeature)<br/>
+🔄 Abra um Pull Request</b>
+</div>
+
+<div align="center">
+  <h2>📜 Licença | License</h2>
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%8C%90_Website-hermessonyuri.com-2e8b57?style=for-the-badge" alt="Website" />
+  <img src="https://img.shields.io/badge/%F0%9F%91%94_LinkedIn-Hermesson_Yuri-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/%F0%9F%92%BB_GitHub-hermessonyurii-181717?style=for-the-badge&logo=github" alt="GitHub" />
+  <img src="https://img.shields.io/badge/%F0%9F%9B%92_Loja-siteoficial--hy.shop-FF6600?style=for-the-badge" alt="Loja" />
+  <img src="https://img.shields.io/badge/%F0%9F%8E%93_DIO-Profile-7A1FA2?style=for-the-badge" alt="DIO" />
+</div>
+
+<div align="center" style="margin-top: 30px;">
+✨ <b>Obrigado por visitar! | ✨ Thanks for visiting!<br/></b>
+💡 <b>Sugestões são sempre bem-vindas! | 💡 Suggestions are always welcome!</b>
+</div>
+
+---
+
+<div align="center">
+  <b>Desenvolvido por <a href="https://hermessonyuri.com/" target="_blank">Hermesson Yuri</a></b>
+</div>
